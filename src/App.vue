@@ -19,6 +19,9 @@ import Carousel from './components/Carousel.vue';
 // import slickCarousel from './components/SlickCarousel.vue';
 import CardSection from './components/CardSection.vue';
 import Footer from './components/Footer.vue';
+import HeapClient from 'heapanalytics-client';
+
+const heap = new HeapClient('3289103548')
 
 export default {
   name: 'app',
