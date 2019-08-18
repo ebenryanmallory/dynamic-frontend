@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+import Contact from "./views/Contact.vue";
 
 Vue.use(VueRouter)
-
-const Home = { template: '<div><h2>Home Page</h2></div>' }
-const About = { template: '<div><h2>About Page</h2></div>' }
-const Contact = { template: '<div><h2>Contact Page</h2></div>' }
 
 const routes = [
   { path: '/', component: Home },

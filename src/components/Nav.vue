@@ -2,12 +2,10 @@
     <nav id="header" class="fixed w-full z-30 top-0 text-white flex items-center justify-between flex-wrap p-6 bg-white text-black">
 		<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 text-black">
 			<div class="flex items-center flex-shrink-0 mr-6">
-				<a href="/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
-					Home
-				</a>
-				<a href="https://blog.dynamicmomentum.org/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black">
+				<a href="https://blog.dynamicmomentum.org/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-3">
 					Blog
 				</a>
+      			<router-link to="/contact" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-3">Contact</router-link>
 			</div>
 			<div class="block lg:hidden">
 				<button v-on:click="toggleMobileMenu" id="nav-menu" class="flex items-center px-3 py-2 rounded text-black-300 hover:text-black-600">
