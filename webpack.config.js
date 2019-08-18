@@ -64,9 +64,9 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new HtmlWebpackPlugin({
       title: 'PRODUCTION prerender-spa-plugin',
-      template: 'index.html',
+      template: 'public/index.html',
       filename: path.resolve(__dirname, 'dist/index.html'),
-      favicon: 'favicon.ico'
+      favicon: 'public/favicon.ico'
     }),
     new PrerenderSPAPlugin({
       staticDir: path.join(__dirname, 'dist'),
@@ -91,9 +91,9 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new HtmlWebpackPlugin({
       title: 'DEVELOPMENT prerender-spa-plugin',
-      template: 'index.html',
-      filename: 'index.html',
-      favicon: 'favicon.ico'
+      template: 'public/index.html',
+      filename: 'public/index.html',
+      favicon: 'public/favicon.ico'
     }),
   ])
 }

@@ -1,8 +1,7 @@
 {
-  "name": "prerender-spa-plugin-example-vue2-webpack-router",
+  "name": "dynamic-frontend",
   "version": "1.0.0",
   "private": true,
-  "author": "Drew Lustro <drewlustro@gmail.com>",
   "scripts": {
     "buildcss": "npx tailwind build ./src/assets/tailwind.css -o ./dist/main.css",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
