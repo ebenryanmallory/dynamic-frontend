@@ -22,7 +22,7 @@
                 <p class="uppercase text-gray-500 md:mb-6">Links</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://blog.dynamicmomentum.org/blog/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
+                        <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
                     </li>
                 </ul>
             </div>
