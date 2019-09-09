@@ -10,6 +10,16 @@
           <input type="email" name="_replyto" placeholder="Email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
         </div>
         <div class="mb-4">
+          <label for="advertising">Advertising on my YouTube channel</label>
+          <select name="advertising" id="advertising" required="">
+            <option value="Choose" selected="" disabled="">Choose</option>
+            <option value="1">Logo placement (powered by message)</option>
+            <option value="3">Product placement</option>
+            <option value="5">15/30 second spot for existing video</option>
+            <option value="7">15/30 second spot + content creation</option>
+          </select>
+        </div>
+        <div class="mb-4">
           <textarea name="message" placeholder="Tell me a bit about your organization" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mb-4">
