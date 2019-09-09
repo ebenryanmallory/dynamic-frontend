@@ -24,13 +24,16 @@
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                         <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
                     </li>
+                    <li>
+                        <router-link to="/sponsorship" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Corporate Sponsorship</router-link>
+                    </li>
                 </ul>
             </div>
             <div class="flex-1">
                 <p class="uppercase text-gray-500 md:mb-6">Social</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://www.youtube.com/channel/UCtrtcIxk53A6NCRVjkM56oA?view_as=subscriber" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Youtube (coming soon)</a>
+                        <a href="https://www.youtube.com/channel/UCEIK7r1u114stJE5NdlN0Qw" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Youtube (coming soon)</a>
                     </li>
                 </ul>
             </div>

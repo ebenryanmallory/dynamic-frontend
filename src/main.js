@@ -4,12 +4,14 @@ import App from './App.vue'
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Contact from "./views/Contact.vue";
+import Sponsorship from "./views/Sponsorship.vue";
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
+  { path: '/sponsorship', component: Sponsorship },
   { path: '/contact', component: Contact }
 ]
 

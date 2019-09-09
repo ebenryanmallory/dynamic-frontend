@@ -70,7 +70,7 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new PrerenderSPAPlugin({
       staticDir: path.join(__dirname, 'dist'),
-      routes: [ '/', '/about', '/contact' ],
+      routes: [ '/', '/about', '/contact', '/sponsorship' ],
 
       renderer: new Renderer({
         inject: {
