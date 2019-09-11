@@ -2,7 +2,7 @@
     <nav id="header" class="fixed w-full z-30 top-0 text-white flex items-center justify-between flex-wrap p-6 bg-white text-black">
 		<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 text-black">
 			<div class="flex items-center flex-shrink-0 mr-6">
-				<a href="https://blog.dynamicmomentum.org/blog/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-3">
+				<a href="https://blog.dynamicmomentum.org/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-3">
 					Blog
 				</a>
       			<router-link to="/contact" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-3">Contact</router-link>

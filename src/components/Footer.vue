@@ -3,7 +3,7 @@
     <div class="container mx-auto  px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="/"> 
+          <a class="text-yellow-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="/"> 
             <svg width="60px" height="42px" viewBox="0 0 60 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
                     <linearGradient x1="41.2410248%" y1="41.2940182%" x2="100%" y2="70.4582556%" id="linearGradient-1">
@@ -22,10 +22,10 @@
                 <p class="uppercase text-gray-500 md:mb-6">Links</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">FAQ</a>
+                        <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">FAQ</a>
                     </li>
                     <li>
-                        <router-link to="/sponsorship" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Corporate Sponsorship</router-link>
+                        <router-link to="/sponsorship" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Corporate Sponsorship</router-link>
                     </li>
                 </ul>
             </div>
@@ -33,7 +33,7 @@
                 <p class="uppercase text-gray-500 md:mb-6">Social</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://www.youtube.com/channel/UCEIK7r1u114stJE5NdlN0Qw" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Youtube (coming soon)</a>
+                        <a href="https://www.youtube.com/channel/UCEIK7r1u114stJE5NdlN0Qw" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Youtube (coming soon)</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@
                 <p class="uppercase text-gray-500 md:mb-6">About</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://www.patreon.com/user?u=22638294" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Patreon</a>
+                        <a href="https://www.patreon.com/user?u=22638294" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Patreon</a>
                     </li>
                 </ul>
             </div>
