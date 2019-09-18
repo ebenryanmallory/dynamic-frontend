@@ -24,7 +24,7 @@
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                         <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">FAQ</a>
                     </li>
-                    <li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                         <router-link to="/sponsorship" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Corporate Sponsorship</router-link>
                     </li>
                 </ul>
@@ -33,7 +33,10 @@
                 <p class="uppercase text-gray-500 md:mb-6">Social</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://www.youtube.com/channel/UCEIK7r1u114stJE5NdlN0Qw" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Youtube (coming soon)</a>
+                        <a href="https://www.youtube.com/channel/UCEIK7r1u114stJE5NdlN0Qw" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Youtube</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="https://github.com/dynamic-momentum" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Github</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +44,10 @@
                 <p class="uppercase text-gray-500 md:mb-6">About</p>
                 <ul class="list-reset mb-6">
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                        <a href="https://www.patreon.com/user?u=22638294" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Patreon</a>
+                        <a href="https://www.patreon.com/user?u=22638294" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">About Me</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="https://blog.dynamicmomentum.org/about/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Patreon</a>
                     </li>
                 </ul>
             </div>

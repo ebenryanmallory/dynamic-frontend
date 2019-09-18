@@ -17,13 +17,13 @@
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
           <div class="flex items-center justify-start">
-            <button class="mx-auto hover:underline gradient text-black-700 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="https://blog.dynamicmomentum.org/blog/" target="_blank">Learn more</a></button>
+            <button class="mx-auto hover:underline gradient text-black-700 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="https://blog.dynamicmomentum.org/" target="_blank">Learn more</a></button>
           </div>
         </div>
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="https://blog.dynamicmomentum.org/contact/" target="_blank" class="flex flex-wrap no-underline hover:no-underline">
+          <a href="https://blog.dynamicmomentum.org/blog/creating-an-exoskeleton-hardware-platform/" target="_blank" class="flex flex-wrap no-underline hover:no-underline">
             <p class="w-full text-gray-600 text-xs md:text-sm px-6">Open source hardware + software</p>
             <div class="w-full font-bold text-xl text-gray-800 px-6">Modular software integration</div>
             <p class="text-gray-800 text-base px-6 mb-5">
@@ -39,7 +39,7 @@
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="https://blog.dynamicmomentum.org/contact/" target="_blank" class="flex flex-wrap no-underline hover:no-underline">
+          <a href="https://blog.dynamicmomentum.org/blog/category/exoskeleton-hardware-platform/" target="_blank" class="flex flex-wrap no-underline hover:no-underline">
             <p class="w-full text-gray-600 text-xs md:text-sm px-6">Landscape</p>
             <div class="w-full font-bold text-xl text-gray-800 px-6">Rapid iterations</div>
             <p class="text-gray-800 text-base px-6 mb-5">
@@ -49,7 +49,7 @@
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
           <div class="flex items-center justify-end">
-            <button class="mx-auto hover:underline gradient text-black-700 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="https://blog.dynamicmomentum.org/blog/" target="_blank">Learn more</a></button>
+            <button class="mx-auto hover:underline gradient text-black-700 font-bold rounded-full my-6 py-4 px-8 shadow-lg"><a href="https://blog.dynamicmomentum.org/" target="_blank">Learn more</a></button>
           </div>
         </div>
       </div>
