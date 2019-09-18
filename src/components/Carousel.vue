@@ -107,10 +107,10 @@
     color: #333556;
   }
   label.prev {
-    background: #FFB800;
+    background: #FF9900;
   }
   label.next {
-    background: #FFB800;
+    background: #FF9900;
   }
   label.prev:hover {
     background: #333556;
