@@ -5,23 +5,23 @@
         <div class="carousel-inner relative overflow-hidden w-full">
           <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
           <div class="carousel-item absolute opacity-0" style="height:50vh;">
-                        <div class="block h-full w-full" style="background: #feebc866">
-              <img src="../assets/footsteps.jpg" style="position: absolute; right: 0px; bottom: -70%;">
-              <div class="text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #2f00b3;">
+            <div class="block h-full w-full" style="background: #feebc866">
+              <img src="../assets/footsteps.jpg" style="position: absolute; right: 0px; bottom: -200px;">
+              <div class="text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #333556;">
                 <h1 class="text-xl">Dynamic stability</h1>
-                <p>With a focus on balance, the limits of potential for an emerging technology become greatly reduced.</p>
+                <p style="width:250px;">With a focus on balance, the limits of potential for an emerging technology become greatly reduced.</p>
               </div>
             </div>
           </div>
-          <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white bg-white hover:bg-purple-700 leading-tight text-center z-10 inset-y-0 left-0 mt-auto">‹</label>
-          <label for="carousel-2" class="next control-1 w-10 h-10 ml-48 md:ml-48 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white bg-white hover:bg-purple-700 leading-tight text-center z-10 inset-y-0 left-0 mt-auto">›</label>
+          <label for="carousel-3" class="prev control-1 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white bg-white leading-tight text-center z-10 inset-y-0 left-0 mt-auto">‹</label>
+          <label for="carousel-2" class="next control-1 w-10 h-10 ml-48 md:ml-48 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white bg-white leading-tight text-center z-10 inset-y-0 left-0 mt-auto">›</label>
           <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
           <div class="carousel-item absolute opacity-0" style="height:50vh;">
             <div class="block h-full w-full" style="background: #feebc866">
-              <img src="../assets/blue-legos.jpg" style="position: absolute; right: 0px; bottom: -70%;">
-              <div class="bg-purple-500 text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #2f00b3;">
+              <img src="../assets/blue-legos.jpg" style="position: absolute; right: 0px; bottom: -50px;">
+              <div class="text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #333556;">
                 <h1 class="text-xl">Modular building</h1>
-                <p>A framework for taking an organized approach to solving emerging technology challenges can be adopted from software development principles.</p>
+                <p style="width:250px;">A framework for taking an organized approach to solving emerging technology challenges can be adopted from software development principles.</p>
               </div>
             </div>
           </div>
@@ -30,10 +30,10 @@
           <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
           <div class="carousel-item absolute opacity-0" style="height:50vh;">
             <div class="block h-full w-full" style="background: #feebc866">
-              <img src="../assets/blocks.jpg" style="position: absolute; right: 0px; bottom: -70%;c">
-              <div class="text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #2f00b3;">
+              <img src="../assets/lightbulb.jpg" style="position: absolute; right: 0px; bottom: 0px;">
+              <div class="text-white text-left absolute p-16 pt-12" style="max-width:350px; background: #333556;">
                 <h1 class="text-xl">Never obsolete</h1>
-                <p>With a pragmatic focus on actual usability, I intend to primarily create information and create modular addons to existing solutions in an agile manner.</p>
+                <p style="width:250px;">With a pragmatic focus on actual usability, I intend to primarily create information and create modular addons to existing solutions in an agile manner.</p>
               </div>
             </div>
           </div>
@@ -41,13 +41,13 @@
           <label for="carousel-1" class="next control-3 w-10 h-10 ml-48 md:ml-48 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white bg-white leading-tight text-center z-10 inset-y-0 left-0 mt-auto">›</label>
           <ol class="carousel-indicators">
             <li class="inline-block mr-3">
-              <label for="carousel-1" class="carousel-bullet cursor-pointer block text-5xl text-white hover:text-purple-700">-</label>
+              <label for="carousel-1" class="carousel-bullet cursor-pointer block text-5xl text-white">-</label>
             </li>
             <li class="inline-block mr-3">
-              <label for="carousel-2" class="carousel-bullet cursor-pointer block text-5xl text-white hover:text-purple-700">-</label>
+              <label for="carousel-2" class="carousel-bullet cursor-pointer block text-5xl text-white">-</label>
             </li>
             <li class="inline-block mr-3">
-              <label for="carousel-3" class="carousel-bullet cursor-pointer block text-5xl text-white hover:text-purple-700">-</label>
+              <label for="carousel-3" class="carousel-bullet cursor-pointer block text-5xl text-white">-</label>
             </li>
           </ol>
         </div>
@@ -94,6 +94,15 @@
   #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
   #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
   #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #2f00b3;
+    color: #333556;
+  }
+  .carousel-bullet:hover {
+    color: #333556;
+  }
+  label.prev:hover {
+    background: #333556;
+  }
+    label.next:hover {
+    background: #333556;
   }
 </style>
