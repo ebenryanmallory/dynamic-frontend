@@ -12,8 +12,8 @@
 					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
 				</button>
 			</div>
-			<div class="nav-content hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-				<div class="text-sm lg:flex-grow">
+			<div class="nav-content hidden w-full flex-grow lg:flex lg:items-center lg:w-auto">
+				<div class="text-sm inline-block lg:flex-grow">
 					<a href="https://dynamicmomentum.org/" class="block mt-4 lg:inline-block lg:mt-0 hover:text-black mr-4">
 						<svg width="60px" height="42px" viewBox="0 0 60 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 							<defs>
