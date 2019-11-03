@@ -27,6 +27,7 @@
           <textarea name="message" placeholder="Tell me a bit about yourself or your family member" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mb-4">
+          <input type="hidden" name="_next" value="https://dynamicmomentum.org/"/>
           <input type="submit" value="Send" class="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
         </div>
       </form>
