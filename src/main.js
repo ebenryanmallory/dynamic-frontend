@@ -5,6 +5,7 @@ import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Contact from "./views/Contact.vue";
 import Sponsorship from "./views/Sponsorship.vue";
+import UserSignup from "./views/UserSignup.vue";
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
   { path: '/sponsorship', component: Sponsorship },
+  { path: '/user-signup', component: UserSignup },
   { path: '/contact', component: Contact }
 ]
 

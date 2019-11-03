@@ -25,6 +25,9 @@
                         <a href="https://blog.dynamicmomentum.org/blog/category/faq/" target="_blank" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">FAQ</a>
                     </li>
                     <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <router-link to="/user-signup" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">User Signup</router-link>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                         <router-link to="/sponsorship" class="no-underline hover:underline text-gray-800 hover:text-yellow-500">Corporate Sponsorship</router-link>
                     </li>
                 </ul>
