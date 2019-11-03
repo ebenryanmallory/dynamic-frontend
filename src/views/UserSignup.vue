@@ -10,17 +10,17 @@
           <input type="email" name="_replyto" placeholder="Email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
         </div>
         <div class="mb-4">
-          <textarea name="message" placeholder="Where are you currently located?" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+          <textarea name="location" placeholder="Where are you currently located?" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
         <div class="mb-4">
-          <textarea name="message" placeholder="Phone number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+          <textarea name="number" placeholder="Phone number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
           <div class="mb-4">
-          <select name="advertising" id="advertising" required="" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-4">
+          <select name="age" id="age" required="" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mt-4">
             <option value="YouTube options:" selected="" disabled="" >Age</option>
-            <option value="5">Age under 18</option>
-            <option value="7">Age 18 - 45</option>
-            <option value="7">Age 45+</option>
+            <option value="-18">Age under 18</option>
+            <option value="18-45">Age 18 - 45</option>
+            <option value="45+">Age 45+</option>
           </select>
         </div>
         <div class="mb-4">
